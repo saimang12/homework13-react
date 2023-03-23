@@ -20,7 +20,7 @@ const Footer = () => {
                     }
                 </ul>
                 <div className="FooterBottom">
-                    <p>{INFO.company}</p>
+                    <p>{INFO.company}asd</p>
                     <span>tel : {INFO.tel}</span>
                     <address>주소 : {INFO.address}</address>
                     <em>&copy; {INFO.copy}</em>
