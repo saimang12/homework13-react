@@ -11,9 +11,8 @@ const MainContent = ({ slide, MAIN_CONTENT }) => {
                         MAIN_CONTENT.map((it) => {
                             return (
                                 <figure key={it.id}>
-                                    <img src={it.src} alt={it.alt} />
+                                    <img src={process.env.PUBLIC_URL + `${it.src}`} alt={it.alt} />
                                 </figure>
-
                             )
                         })
                     }
