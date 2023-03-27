@@ -10,11 +10,11 @@ export const MAIN_CONTENT = [
 ]
 
 export const NAV = [
-    { id: 1, title: '기업소개' },
-    { id: 2, title: '사업분야' },
-    { id: 3, title: '홍보' },
-    { id: 4, title: '지속가능경영' },
-    { id: 5, title: '커뮤니티' }
+    { id: 1, title: '기업소개', link: 'sub01' },
+    { id: 2, title: '사업분야', link: 'sub02' },
+    { id: 3, title: '홍보', link: 'sub03' },
+    { id: 4, title: '지속가능경영', link: 'sub04' },
+    { id: 5, title: '커뮤니티', link: 'sub05' }
 ]
 
 export const FOOTER_NAV = [
