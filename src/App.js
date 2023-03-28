@@ -15,7 +15,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout NAV={NAV} />}>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Main slide={slide} />} />
         <Route path="/sub01" element={<Sub01 />} />
         <Route path="/sub02" element={<Sub02 />} />
         <Route path="/sub03" element={<Sub03 />} />

@@ -1,6 +1,8 @@
+// Header 시작
+
 .header {
-    line-height: 100px;
-    border-bottom: 1px solid #ddd;
+    line-height: 80px;
+    box-shadow: 0 0 1px #000;
 
     .inner {
         display: flex;
@@ -8,103 +10,51 @@
         margin: 0 auto;
         justify-content: space-between;
 
-        h1 {
-            font-size: 0;
-        }
+        .gnb {
+            >ul {
+                display: flex;
+                gap: 30px;
 
-        .gnb>ul {
-            display: flex;
-            gap: 40px;
-
-            a {
-                display: block;
+                >li {
+                    font-size: 18px;
+                }
             }
         }
     }
 }
 
-.MainVisual {
-    position: relative;
+// Header 종료
 
+// MainVisual 시작
+
+.mainVisual {
+    position: relative;
+    min-width: 1200px;
 
     .itm {
-        height: 650px;
-        min-width: 1200px;
-    }
-
-    .itm01 {
-        background: url(../../public/img/mainvisual01.jpg) no-repeat center center/cover;
-    }
-
-    .itm02 {
-        background: url(../../public/img/mainvisual02.jpg) no-repeat center center/cover;
-    }
-
-    .inner {
         position: relative;
-        width: 1200px;
-        height: 100%;
-        margin: 0 auto;
+        height: 600px;
 
-        .tit {
-            position: absolute;
-            left: 0;
-            top: 30%;
-            color: #fff;
-            text-shadow: 0 0 3px #000;
-
-            h2 {
-                font-size: 40px;
-                font-weight: 700;
-                margin: 0 0 15px 0;
-            }
-
-            p {
-                font-size: 30px;
-                font-weight: 500;
-            }
-        }
-    }
-
-    .num {
-        position: absolute;
-        bottom: 200px;
-        color: #fff;
-        width: 100%;
-
-        em {
-            display: block;
+        .inner {
             width: 1200px;
             margin: 0 auto;
-            font-size: 25px;
-        }
-    }
+            color: #fff;
 
-    .slick-dots {
-        position: absolute;
-        bottom: 100px;
-        left: 50%;
-        transform: translate(-50%, 0);
+            .tit {
+                position: absolute;
+                inset: 25% auto auto 50%;
+                transform: translate(-50%, 0);
+                width: 1200px;
+                text-shadow: 0 0 3px #000;
 
-        li {
-            display: inline-block;
+                p {
+                    font-size: 20px;
+                    margin: 0 0 10px 0;
+                }
 
-
-            button {
-                font-size: 0;
-                border: none;
-                background: #000;
-                width: 100px;
-                height: 10px;
-                margin: 0 5px;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-
-
-            &.slick-active {
-                button {
-                    background: tomato;
+                h2 {
+                    font-size: 50px;
+                    font-weight: 700;
                 }
             }
         }
@@ -112,111 +62,29 @@
 
     .arrows {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        inset: 50% auto auto 50%;
+        text-shadow: 0 0 2px #000;
         font-size: 50px;
-
-        button {
-            background: none;
-            border: none;
-            color: #fff;
-            text-shadow: 0 0 3px #000;
-            cursor: pointer;
-        }
+        color: #fff;
+        cursor: pointer;
 
         .left {
-            transform: translate(-700px, 0);
+            position: absolute;
+            margin: 0 0 0 -700px;
+            transform: translate(-50%, -50%);
         }
 
         .right {
-            transform: translate(700px, 0);
-        }
-    }
-}
-
-.MainContent {
-    padding: 100px 0;
-
-    .inner {
-        width: 1200px;
-        margin: 0 auto;
-
-        .title {
-            text-align: center;
-            margin: 0 0 40px 0;
-
-            h2 {
-                font-size: 30px;
-                font-weight: 700;
-                margin: 0 0 10px 0;
-            }
-        }
-
-        .content {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-        }
-    }
-}
-
-.Footer {
-    padding: 40px 0 60px 0;
-    background: #444;
-    color: #ddd;
-    font-size: 14px;
-
-    .inner {
-        width: 1200px;
-        margin: 0 auto;
-
-        .FooterTop {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin: 0 0 40px 0;
-
-            @for $i from 1 to 6 {
-                .itm0#{$i} {
-                    a {
-                        display: block;
-                        padding: 2px 10px;
-                    }
-
-                    @if ($i==2) {
-                        color: #fff;
-                        font-weight: 700;
-                    }
-
-
-
-
-                }
-
-
-            }
-
-
-        }
-
-        .FooterBottom {
-            text-align: center;
-
-            p {
-                margin: 0 0 5px 0;
-            }
-
-            span {
-                display: block;
-                margin: 0 0 5px 0;
-            }
-
-            address {
-                margin: 0 0 5px 0;
-            }
+            position: absolute;
+            margin: 0 0 0 700px;
+            transform: translate(-50%, -50%);
         }
     }
 
+    @for $i from 1 to 4 {
+        .itm0#{$i} {
+            background: url(../../public/img/mainvisual0#{$i}.jpg) no-repeat center center/cover;
 
+        }
+    }
 }

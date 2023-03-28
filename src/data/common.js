@@ -1,6 +1,7 @@
 export const slide = [
     { id: 1, title: '시대를 이끄는 혁신과 끊임없는 도전으로', desc: '인류의 미래를 개척합니다.' },
-    { id: 2, title: '1% 나눔 등 다양한 사회공헌 활동으로', desc: '더불어 행복한 사회를 만듭니다.' }
+    { id: 2, title: '시대를 이끄는 혁신과 끊임없는 도전으로', desc: '인류의 미래를 개척합니다.' },
+    { id: 3, title: '1% 나눔 등 다양한 사회공헌 활동으로', desc: '더불어 행복한 사회를 만듭니다.' }
 ]
 
 export const MAIN_CONTENT = [
