@@ -14,8 +14,8 @@ import Sub05 from "./components/Sub05";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout NAV={NAV} />}>
-        <Route path="/" element={<Main slide={slide} />} />
+      <Route path="/" element={<Layout NAV={NAV} FOOTER_NAV={FOOTER_NAV} INFO={INFO} />}>
+        <Route path="/" element={<Main slide={slide} MAIN_CONTENT={MAIN_CONTENT} />} />
         <Route path="/sub01" element={<Sub01 />} />
         <Route path="/sub02" element={<Sub02 />} />
         <Route path="/sub03" element={<Sub03 />} />
