@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import MainSlide from "react-slick";
 import "slick-carousel/slick/slick.css";
 
-const MainVisual = ({ slide }) => {
+const MainVisual = ({ Mainslide }) => {
     const s = useRef(null)
     console.log(s)
     const mainSlideOption = {
@@ -12,7 +12,7 @@ const MainVisual = ({ slide }) => {
         <section className="mainVisual">
             <MainSlide {...mainSlideOption} ref={s}>
                 {
-                    slide.map((it, idx) => {
+                    Mainslide.map((it, idx) => {
                         return (
                             <div key={it.id} className={`itm itm0${idx + 1}`}>
                                 <div className="inner">

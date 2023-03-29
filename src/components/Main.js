@@ -1,10 +1,10 @@
 import MainContent from "./MainContent";
 import MainVisual from "./MainVisual";
 
-const Main = ({ slide, MAIN_CONTENT }) => {
+const Main = ({ Mainslide, MAIN_CONTENT }) => {
     return (
         <main>
-            <MainVisual slide={slide} />
+            <MainVisual Mainslide={Mainslide} />
             <MainContent MAIN_CONTENT={MAIN_CONTENT} />
         </main>
     )

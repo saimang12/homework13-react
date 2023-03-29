@@ -1,6 +1,6 @@
 
-import { NAV, slide, MAIN_CONTENT, FOOTER_NAV, INFO } from "./data/common";
-import { Outlet, Route, Router, Routes } from "react-router-dom";
+import { NAV, Mainslide, MAIN_CONTENT, FOOTER_NAV, INFO, Sub02Slide } from "./data/common";
+import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Main from "./components/Main";
 import Sub01 from "./components/Sub01";
@@ -15,9 +15,9 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout NAV={NAV} FOOTER_NAV={FOOTER_NAV} INFO={INFO} />}>
-        <Route path="/" element={<Main slide={slide} MAIN_CONTENT={MAIN_CONTENT} />} />
+        <Route path="/" element={<Main Mainslide={Mainslide} MAIN_CONTENT={MAIN_CONTENT} />} />
         <Route path="/sub01" element={<Sub01 />} />
-        <Route path="/sub02" element={<Sub02 />} />
+        <Route path="/sub02" element={<Sub02 Sub02Slide={Sub02Slide} />} />
         <Route path="/sub03" element={<Sub03 />} />
         <Route path="/sub04" element={<Sub04 />} />
         <Route path="/sub05" element={<Sub05 />} />

@@ -1,7 +1,13 @@
-export const slide = [
+export const Mainslide = [
     { id: 1, title: '시대를 이끄는 혁신과 끊임없는 도전으로', desc: '인류의 미래를 개척합니다.' },
     { id: 2, title: '시대를 이끄는 혁신과 끊임없는 도전으로', desc: '인류의 미래를 개척합니다.' },
     { id: 3, title: '1% 나눔 등 다양한 사회공헌 활동으로', desc: '더불어 행복한 사회를 만듭니다.' }
+]
+
+export const Sub02Slide = [
+    { id: 1, src: '/img/sub02_slide01.jpg', alt: '174,000 CBM LNG 선' },
+    { id: 2, src: '/img/sub02_slide02.jpg', alt: '153,000 DWT 셔틀 유조선' },
+    { id: 3, src: '/img/sub02_slide03.jpg', alt: '15,300 톤급 LNG 이중연료 추진 컨테이너선' }
 ]
 
 export const MAIN_CONTENT = [
@@ -15,7 +21,7 @@ export const NAV = [
     { id: 2, title: '사업분야', link: 'sub02' },
     { id: 3, title: '홍보', link: 'sub03' },
     { id: 4, title: '지속가능경영', link: 'sub04' },
-    { id: 5, title: '커뮤니티', link: 'sub05' }
+    { id: 5, title: '통합보고서', link: 'sub05' }
 ]
 
 export const FOOTER_NAV = [
