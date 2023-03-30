@@ -26,6 +26,7 @@ p {
 
                 >li {
                     font-size: 18px;
+                    font-weight: 500;
                 }
             }
         }
@@ -394,15 +395,21 @@ p {
             margin: 0 0 40px 0;
             background: url(../../public/img/br_bg.jpg) no-repeat 100% 100%;
 
-            .down {
+            .desc {
                 width: 40%;
-                text-align: center;
+                padding: 30px;
+
+                p {
+                    font-size: 15px;
+                    font-weight: 300;
+                    line-height: 1.5;
+                }
 
                 a {
                     display: inline-block;
-                    padding: 15px 80px 14px 20px;
-                    margin: 20px 0 0 0;
-                    background: #372c8b url(../../public/img/btn_bg_down.png) no-repeat 90% 50%;
+                    margin: 50px 0 0 0;
+                    padding: 10px 30px 9px 30px;
+                    background: #000;
                     color: #fff;
                     font-size: 14px;
                 }
@@ -706,6 +713,12 @@ p {
 
         .report_list {
             position: relative;
+            display: none;
+
+
+            &.on {
+                display: block;
+            }
 
             &::before {
                 content: "";
