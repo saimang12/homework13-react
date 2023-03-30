@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/homework13-react/static/css/main.2b5eb91e.css",
-    "main.js": "/homework13-react/static/js/main.8ec17b25.js",
+    "main.css": "/homework13-react/static/css/main.eef47a8e.css",
+    "main.js": "/homework13-react/static/js/main.c693b58b.js",
     "static/media/mainvisual02.jpg": "/homework13-react/static/media/mainvisual02.6bb1e87c3a2f81e25824.jpg",
+    "static/media/sub04_top_bg.jpg": "/homework13-react/static/media/sub04_top_bg.48122c7915fd45db3645.jpg",
+    "static/media/sub05_top_bg.jpg": "/homework13-react/static/media/sub05_top_bg.2133a259a8e7c8253cf6.jpg",
     "static/media/mainvisual01.jpg": "/homework13-react/static/media/mainvisual01.0589409ca41db0bdd12d.jpg",
     "static/media/mainvisual03.jpg": "/homework13-react/static/media/mainvisual03.2db5bc5775eef557eaf9.jpg",
     "static/media/sub02_01.jpg": "/homework13-react/static/media/sub02_01.1b21302c46f4e9e18b15.jpg",
     "static/media/br_bg.jpg": "/homework13-react/static/media/br_bg.60b7a03d0840c86dc6ec.jpg",
     "index.html": "/homework13-react/index.html",
-    "main.2b5eb91e.css.map": "/homework13-react/static/css/main.2b5eb91e.css.map",
-    "main.8ec17b25.js.map": "/homework13-react/static/js/main.8ec17b25.js.map"
+    "main.eef47a8e.css.map": "/homework13-react/static/css/main.eef47a8e.css.map",
+    "main.c693b58b.js.map": "/homework13-react/static/js/main.c693b58b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b5eb91e.css",
-    "static/js/main.8ec17b25.js"
+    "static/css/main.eef47a8e.css",
+    "static/js/main.c693b58b.js"
   ]
 }
