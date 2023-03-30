@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import SubSlide from "react-slick";
 import "slick-carousel/slick/slick.css";
 
@@ -55,7 +54,7 @@ const Sub02 = ({ Sub02Slide }) => {
                         {
                             Sub02Slide.map((it, idx) => {
                                 return (
-                                    <li className={idx === on ? 'on' : ''}>
+                                    <li key={it.id} className={idx === on ? 'on' : ''}>
                                         <button onClick={() => { s.current.slickGoTo(idx) }}>{it.id}</button>
                                     </li>
                                 )

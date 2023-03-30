@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import './css/font.css';
 import './css/common.css';
 import './css/main.scss';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

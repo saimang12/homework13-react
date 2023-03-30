@@ -24,6 +24,23 @@ export const NAV = [
     { id: 5, title: '통합보고서', link: 'sub05' }
 ]
 
+export const Sub04Solution = [
+    { id: 1, title: '투명한공개', desc: '이해관계자 맞춤형 커뮤니케이션 채널운영 지속가능경영 활동 및 성과공개' },
+    { id: 2, title: '체계적인 성과관리', desc: '5대 경영철학 관련 지속가능경영 영역별 활동 수행 및 성과관리' },
+    { id: 3, title: '지속적인 발전', desc: '지속가능경영 활동 및 성과의 다면적 분석실시 미흡분야 개선 및 우수 영역 강화' },
+]
+
+export const Sub05Reports = [
+    { id: 1, title: '[2020] 통합보고서 - 2021년 발간', src: '/img/report_01.jpg', link: 'https://www.hhi.co.kr/filedown/2021_KSOE_IR_KR.pdf' },
+    { id: 1, title: '[2019] 통합보고서 - 2020년 발간', src: '/img/report_02.jpg', link: 'https://www.hhi.co.kr/filedown/2020_KSOE_IR_KR.pdf' },
+    { id: 1, title: '[2018] 통합보고서 - 2019년 발간', src: '/img/report_03.jpg', link: 'https://www.hhi.co.kr/filedown/2019_HHI_SR_kor_w_1.pdf' },
+    { id: 1, title: '[2017] 통합보고서 - 2018년 발간', src: '/img/report_04.jpg', link: 'https://www.hhi.co.kr/filedown/2018_HHI_SR_kor_w_2.pdf' },
+    { id: 1, title: '[2016] 통합보고서 - 2017년 발간', src: '/img/report_05.jpg', link: 'https://www.hhi.co.kr/filedown/2017_HHI_SR_kor_w_1.pdf' },
+    { id: 1, title: '[2015] 통합보고서 - 2016년 발간', src: '/img/report_06.jpg', link: 'https://www.hhi.co.kr/filedown/2016_HHI_SR%20_kor_w_1.pdf' },
+    { id: 1, title: '[2014] 통합보고서 - 2015년 발간', src: '/img/report_07.jpg', link: 'https://www.hhi.co.kr/filedown/2015_HHI_SR%20_kor_w_1.pdf' },
+    { id: 1, title: '[2013] 통합보고서 - 2014년 발간', src: '/img/report_08.jpg', link: 'https://www.hhi.co.kr/filedown/2014_HHI_SR%20_kor_w_1.pdf' }
+]
+
 export const FOOTER_NAV = [
     { id: 1, title: '개인정보처리방침' },
     { id: 2, title: '이메일무단수집거부' },

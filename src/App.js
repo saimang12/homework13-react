@@ -1,5 +1,5 @@
 
-import { NAV, Mainslide, MAIN_CONTENT, FOOTER_NAV, INFO, Sub02Slide } from "./data/common";
+import { NAV, Mainslide, MAIN_CONTENT, FOOTER_NAV, INFO, Sub02Slide, Sub04Solution, Sub05Reports } from "./data/common";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./Layout";
 import Main from "./components/Main";
@@ -19,8 +19,8 @@ function App() {
         <Route path="/sub01" element={<Sub01 />} />
         <Route path="/sub02" element={<Sub02 Sub02Slide={Sub02Slide} />} />
         <Route path="/sub03" element={<Sub03 />} />
-        <Route path="/sub04" element={<Sub04 />} />
-        <Route path="/sub05" element={<Sub05 />} />
+        <Route path="/sub04" element={<Sub04 Sub04Solution={Sub04Solution} />} />
+        <Route path="/sub05" element={<Sub05 Sub05Reports={Sub05Reports} />} />
       </Route>
     </Routes >
   );
